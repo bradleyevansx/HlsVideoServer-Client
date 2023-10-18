@@ -1,0 +1,14 @@
+﻿@inject IJSRuntime JsRuntime
+
+<h3>Video Player</h3>
+    <video style="height: 250px" id="hlsPlayer" controls></video>
+
+
+@code {
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JsRuntime.InvokeVoidAsync("initializeHlsPlayer", "hlsPlayer", "https://localhost:7255/api/HLS/RouTranscoded/output");
+    }
+
+}
