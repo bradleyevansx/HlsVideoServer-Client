@@ -5,10 +5,10 @@
 
 
 @code {
-
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        await JsRuntime.InvokeVoidAsync("initializeHlsPlayer", "hlsPlayer", "https://localhost:7255/api/HLS/RouTranscoded/output");
+        string firebaseStorageUrl = "https://localhost:7255/api/HLS/rou/rou.m3u8";
+        
+        await JsRuntime.InvokeVoidAsync("initializeHlsPlayer", "hlsPlayer", firebaseStorageUrl);
     }
-
 }

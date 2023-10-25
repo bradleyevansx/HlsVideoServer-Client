@@ -6,7 +6,6 @@ C:\Users\bradl\POL\C#Testing\Hls\HlsClient\bin\Debug\net7.0\HlsClient.deps.json
 C:\Users\bradl\POL\C#Testing\Hls\HlsClient\bin\Debug\net7.0\HlsClient.runtimeconfig.json
 C:\Users\bradl\POL\C#Testing\Hls\HlsClient\bin\Debug\net7.0\HlsClient.dll
 C:\Users\bradl\POL\C#Testing\Hls\HlsClient\bin\Debug\net7.0\HlsClient.pdb
-C:\Users\bradl\POL\C#Testing\Hls\HlsClient\obj\Debug\net7.0\HlsClient.csproj.AssemblyReference.cache
 C:\Users\bradl\POL\C#Testing\Hls\HlsClient\obj\Debug\net7.0\HlsClient.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\bradl\POL\C#Testing\Hls\HlsClient\obj\Debug\net7.0\HlsClient.AssemblyInfoInputs.cache
 C:\Users\bradl\POL\C#Testing\Hls\HlsClient\obj\Debug\net7.0\HlsClient.AssemblyInfo.cs

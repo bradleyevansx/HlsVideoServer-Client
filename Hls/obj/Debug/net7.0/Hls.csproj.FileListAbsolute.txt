@@ -38,3 +38,5 @@ C:\Users\bradl\POL\C#Testing\Hls\Hls\obj\Debug\net7.0\Hls.genruntimeconfig.cache
 C:\Users\bradl\POL\C#Testing\Hls\Hls\obj\Debug\net7.0\ref\Hls.dll
 C:\Users\bradl\POL\C#Testing\Hls\Hls\bin\Debug\net7.0\package-lock.json
 C:\Users\bradl\POL\C#Testing\Hls\Hls\bin\Debug\net7.0\package.json
+C:\Users\bradl\POL\C#Testing\Hls\Hls\bin\Debug\net7.0\FFMpegCore.dll
+C:\Users\bradl\POL\C#Testing\Hls\Hls\bin\Debug\net7.0\Instances.dll

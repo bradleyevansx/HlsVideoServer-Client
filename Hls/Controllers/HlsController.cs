@@ -17,7 +17,7 @@ public class HLSController : ControllerBase
             return NotFound();
         }
 
-        var manifestPath = Path.Combine(videoFolderPath, $"{fileName}.m3u8");
+        var manifestPath = Path.Combine(videoFolderPath, $"{fileName}");
 
         if (!System.IO.File.Exists(manifestPath))
         {
@@ -28,7 +28,7 @@ public class HLSController : ControllerBase
         return File(fileStream, "application/vnd.apple.mpegurl");
     }
 
-    [HttpGet("{videoName}/output{segment}.ts")]
+    [HttpGet("{videoName}/{segment}.ts")]
     public IActionResult GetSegment(string videoName, string segment)
     {
         var videoFolderPath = Path.Combine(_videoPath, videoName);
@@ -38,7 +38,7 @@ public class HLSController : ControllerBase
             return NotFound();
         }
 
-        var segmentPath = Path.Combine(videoFolderPath, $"output{segment}.ts");
+        var segmentPath = Path.Combine(videoFolderPath, $"{segment}.ts");
 
         if (!System.IO.File.Exists(segmentPath))
         {
@@ -48,4 +48,6 @@ public class HLSController : ControllerBase
         var fileStream = new FileStream(segmentPath, FileMode.Open, FileAccess.Read);
         return File(fileStream, "video/MP2T");
     }
+    
+    
 }
